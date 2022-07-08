@@ -10,6 +10,9 @@ Navigate to the root folder of the project (where *docker-compose.yaml* file is 
 ```bash
 docker compose -f docker-compose.yaml up -d
 ```
+The compose file creates two containers:
+* mongo: runs the DB
+* mongo-express: DB UI client running in 8081 port
 Useful commands:
 ```bash
 # Enter to mongodb container
