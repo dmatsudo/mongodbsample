@@ -6,6 +6,7 @@ It uses Docker to setup the DB so Docker needs to be installed as PreReq.
 
 ### Working with DB
 Containers creation:
+
 Navigate to the root folder of the project (where *docker-compose.yaml* file is placed) and run:
 ```bash
 docker compose -f docker-compose.yaml up -d
@@ -13,6 +14,7 @@ docker compose -f docker-compose.yaml up -d
 The compose file creates two containers:
 * mongo: runs the DB
 * mongo-express: DB UI client running in 8081 port
+
 Useful commands:
 ```bash
 # Enter to mongodb container
