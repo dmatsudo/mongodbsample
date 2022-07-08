@@ -6,6 +6,7 @@ It uses Docker to setup the DB so Docker needs to be installed as PreReq.
 
 ### Working with DB
 Containers creation:
+Navigate to the root folder of the project (where *docker-compose.yaml* file is placed) and run:
 ```bash
 docker compose -f docker-compose.yaml up -d
 ```
